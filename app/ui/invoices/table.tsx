@@ -13,7 +13,7 @@ export default async function InvoicesTable({
 }) {
   const invoices = await fetchFilteredInvoices(query, currentPage);
 
-  let someArray = ['abc', 2, 'd', true, invoices];
+  let someArrays = ['abc', 2, 'd', true, invoices];
 
   return (
     <div className="mt-6 flow-root">
